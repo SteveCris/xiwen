@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.meyue.xiwen.dao.successKilledMapper">
+<mapper namespace="com.meyue.xiwen.dao.business.successKilledMapper">
   <resultMap id="BaseResultMap" type="com.meyue.xiwen.entity.SuccessKilled">
     <id column="seckill_id" jdbcType="BIGINT" property="seckillId" />
     <id column="user_id" jdbcType="BIGINT" property="userId" />

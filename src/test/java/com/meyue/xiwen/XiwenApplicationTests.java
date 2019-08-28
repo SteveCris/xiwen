@@ -11,6 +11,10 @@ public class XiwenApplicationTests {
 
     @Test
     public void contextLoads() {
+        String date ="2019-09-09 23:23:12";
+        System.out.println(date.length());
     }
+
+
 
 }

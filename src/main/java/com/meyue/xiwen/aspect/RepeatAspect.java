@@ -1,3 +1,4 @@
+/*
 package com.meyue.xiwen.aspect;
 
 import com.alibaba.fastjson.JSONObject;
@@ -34,13 +35,15 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 import java.util.Objects;
 
+*/
 /**
  * @ClassName:RepeatAspect </br>
  * @Description: TODO  </br>
  * @Author:童晶继 tongjingji01@gmail.com </br>
  * @Date:
  * @version:1.0
- */
+ *//*
+
 
 @Aspect
 @Scope
@@ -162,12 +165,14 @@ public class RepeatAspect {
         return result;
     }
 
-    /**
+    */
+/**
      * 获取bean属性值对应的字符串的指纹
      *
      * @param object
      * @return
-     */
+     *//*
+
     public String getMD5AfterBase64(Object object) {
         ObjectMapper mapper = new ObjectMapper();
         MessageDigest md5;
@@ -191,3 +196,4 @@ public class RepeatAspect {
 
 
 }
+*/

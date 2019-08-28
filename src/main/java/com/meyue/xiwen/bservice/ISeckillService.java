@@ -1,8 +1,10 @@
 package com.meyue.xiwen.bservice;
 
 
+import com.meyue.xiwen.bo.SaveBo;
 import com.meyue.xiwen.bo.SeckillBo;
 import com.meyue.xiwen.entity.Seckill;
+import com.meyue.xiwen.exception.ZidingException;
 
 import java.util.List;
 
@@ -35,4 +37,8 @@ public interface ISeckillService {
 
 
     void insaveDto(SeckillBo bo);
+
+    void insaveSekDto() throws ZidingException;
+
+    void saveDto(SaveBo bo) throws ZidingException;
 }

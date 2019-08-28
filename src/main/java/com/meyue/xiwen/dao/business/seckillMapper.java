@@ -1,4 +1,4 @@
-package com.meyue.xiwen.dao;
+package com.meyue.xiwen.dao.business;
 
 import com.meyue.xiwen.entity.Seckill;
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- scan 配置文件如果发生改变，将会被重新加载  scanPeriod 检测间隔时间 BY 科帮网 小柒2012 欢迎关注博客https://blog.52itstyle.com-->
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
-    <contextName>spring-boot-seckill</contextName>
+    <contextName>xiwen</contextName>
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
     <!-- 普通日志 -->
     <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
